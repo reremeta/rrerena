@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #fff8f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .produk-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+  }
+  
+  .produk {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .produk img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .produk h3 {
+    margin: 15px 0 10px;
+    color: #ff69b4;
+  }
+  
+  .produk p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff1493;
+  }
+  
+  footer {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
